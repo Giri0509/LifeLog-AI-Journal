@@ -1,0 +1,30 @@
+# Python virtual environment
+venv/
+
+# Environment variables and API keys
+.env
+.env.*
+
+# ChromaDB vector database
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Frontend dependencies
+node_modules/
+
+# Build output
+dist/
+# Safe environment template
+!.env.example
+
+# Test reports
+coverage/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Safe Docker environment template
+!.env.docker.example

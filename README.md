@@ -1,1 +1,2 @@
-# LifeLog-AI-Journal
+# lifelog-ai
+
