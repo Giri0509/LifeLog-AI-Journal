@@ -30,6 +30,64 @@ The goal is to support reflection and make personal memories easier to explore. 
 - **Reliable indexing:** a PostgreSQL outbox retains failed Chroma synchronization work for automatic retries.
 - **Docker setup:** frontend, backend, and PostgreSQL with persistent data and model-cache volumes.
 
+## Screenshots
+
+These screenshots use fictional student journals for demonstration.
+
+### 1. Account sign-in
+
+Sign in to access private diary entries and conversations.
+
+![Account sign-in](docs/screenshots/01-sign-in.jpg)
+
+### 2. Write your story
+
+Write a dated reflection in the journal editor.
+
+![Write your story](docs/screenshots/02-journal-editor.jpg)
+
+### 3. Review and search entries
+
+Browse fictional student journals with search, date and mood filters, and saved AI analysis.
+
+![Review and search entries](docs/screenshots/03-diary-entries.jpg)
+
+### 4. Explore the diary calendar
+
+Review the month, its mood trend, and entries for a selected day.
+
+![Explore the diary calendar](docs/screenshots/04-diary-calendar.jpg)
+
+### 5. Track mood trends
+
+Compare estimated mood scores across journaled days.
+
+![Track mood trends](docs/screenshots/05-mood-analytics.jpg)
+
+### 6. View mood distribution
+
+See how recorded moods are distributed across the fictional entries.
+
+![View mood distribution](docs/screenshots/06-mood-distribution.jpg)
+
+### 7. Generate a monthly reflection
+
+Read an AI-generated reflection with the diary dates included.
+
+![Generate a monthly reflection](docs/screenshots/07-monthly-summary.jpg)
+
+### 8. Explore emotion patterns and insights
+
+Review emotion counts, high and low mood days, and recurring themes with supporting dates.
+
+![Explore emotion patterns and insights](docs/screenshots/08-ai-insights.jpg)
+
+### 9. Chat with your diary
+
+Ask about a recorded experience and review the cited diary source.
+
+![Chat with your diary](docs/screenshots/09-rag-chatbot.jpg)
+
 ## Technology stack
 
 | Area | Technologies |
